@@ -20,7 +20,7 @@ if ($message !== "") {
 
 // 2️⃣ If no SQL match, call Gemini API
 if ($reply == "") {
-    $gemini_api_key = "AIzaSyDl56_Tujpko6GQ8f3SOJvCCWu_7cXpzto";
+    $gemini_api_key = "enter your api_key";
     if (!$gemini_api_key) {
         $reply = "❌ API key not configured";
     } else {
