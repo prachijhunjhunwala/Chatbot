@@ -1,0 +1,1 @@
+SELECT * FROM `faq_data` ORDER BY `question` ASC
